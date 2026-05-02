@@ -4,9 +4,9 @@
 
 -- paths
 local project_name  = "first-skse"
-
 local mod_folder    = "Dev"
 local dir_mo2       = "D:/Games/Mods/SE/MO2/mods"
+
 local dir_mod       = path.join(dir_mo2, mod_folder)
 
 -- launch.json example:
