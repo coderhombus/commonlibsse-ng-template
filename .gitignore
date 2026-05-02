@@ -2,7 +2,7 @@
 .cache/
 .idea/
 .vs/
-.vscode/
+# .vscode/
 .xmake/
 
 # folders
