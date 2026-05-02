@@ -10,7 +10,7 @@ local project_name = "commonlibsse-ng-template"
 includes("lib/commonlibsse-ng")
 
 -- set project constants
-set_project("project_name")
+set_project(project_name)
 set_version("0.0.0")
 set_license("GPL-3.0")
 set_languages("c++23")
@@ -21,9 +21,9 @@ add_rules("mode.debug", "mode.releasedbg")
 add_rules("plugin.vsxmake.autoupdate")
 
 -- define targets
-target("project_name")
+target(project_name)
     add_rules("commonlibsse-ng.plugin", {
-        name = "project_name",
+        name = project_name,
         author = "ASX",
         description = "SKSE Plugin"
     })
