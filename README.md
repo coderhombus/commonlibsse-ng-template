@@ -1,3 +1,8 @@
+# My Template
+
+Customize xmake.lua
+Run helpers/setup.ps1
+
 # CommonLibSSE-NG Plugin Template
 
 This is a basic plugin template using CommonLibSSE-NG.
