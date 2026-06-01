@@ -3,7 +3,7 @@
 ----------------------------------------
 
 -- paths
-local project_name  = "first-skse"
+local project_name  = "template"
 local mod_folder    = "Dev"
 local dir_mo2       = "D:/Games/Mods/SE/MO2/mods"
 
