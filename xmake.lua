@@ -15,8 +15,8 @@ local dir_mod       = path.join(dir_mo2, mod_folder)
 ----------------------------------------
 -- PROJECT SETUP
 ----------------------------------------
-
-includes("lib/commonlibsse-ng")
+-- path to commonlibsse-ng, and other includes
+includes("../../_lib/commonlibsse-ng")
 
 set_project(project_name)
 set_version("0.0.0")
@@ -44,5 +44,8 @@ target(project_name)
     add_headerfiles("src/**.h")
     add_includedirs("src")
     set_pcxxheader("src/pch.h")
+
+    -- include system libaries:
+    -- add_syslinks("winmm")
 
     set_installdir(dir_mod)
