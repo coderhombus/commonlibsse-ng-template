@@ -1,7 +1,7 @@
 # My Template
 
 Customize xmake.lua
-Run helpers/setup.ps1
+Run setup.ps1
 
 # CommonLibSSE-NG Plugin Template
 
