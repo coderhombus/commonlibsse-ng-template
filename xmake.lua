@@ -20,7 +20,7 @@ local dir_mod       = path.join(dir_mo2, mod_folder)
 includes(clib_ng)
 
 set_project(project_name)
-set_version("0.0.0")
+set_version("0.0.1")
 set_license("GPL-3.0")
 set_languages("c++23")
 set_warnings("allextra")
